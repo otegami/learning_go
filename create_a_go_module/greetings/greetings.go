@@ -2,10 +2,9 @@ package greetings
 
 import (
 	"errors"
+	"fmt"
 	"math/rand"
 	"time"
-
-	"fmt"
 )
 
 func Hello(name string) (string, error) {
